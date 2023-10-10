@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#hobbies-body{
+    width: 100%;
+    height: 100vh;
+    background: repeating-linear-gradient(
+        to right,
+        #EEE5E9 0%,
+        #EEE5E9 25%,
+        #545922 25%,
+        #545922 75%,
+        #eee5e9 75%,
+        #EEE5E9 100%
+    );
+}
+
+#about-body{
+    width: 100%;
+    height: 100vh;
+    background: repeating-linear-gradient(
+        to right,
+        #545922 0%,
+        #545922 35%,
+        #eee5e9 35%,
+        #EEE5E9 100%
+    );
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #662E00;
+}
+
+.light-nav a {
+    color: #E5D1D0;
+    text-decoration: none; 
+}
+
+.dark-nav a {
+    color: #5C6D70;
+    text-decoration: none; 
+}
+
+a:hover {
+    color:#662E00;
+}
+
+a:active {
+    text-decoration: line-through;
+}
+
+.navbar {
+    font-size:large;
+}
+
+.dark-nav {
+    color:  #5C6D70;
+}
+
+.light-card-title {
+    color: #E5D1D0;
+}
+
+.card-title {
+    color: #5C6D70;
+}
+
+.card-subtitle {
+    color: #5C6D70;
+}
+
+.index-card-text {
+    color: black;
+}
+
+.hobbies-card-text {
+    color: black;
+}
+
+.index-content {
+    font-size: small;
+}
+.card-image {
+    max-height: 300px;
+}
+
+.about-image {
+    max-height:500px;
+}
