@@ -31,10 +31,16 @@
 **.navbar**
 * holds links to other pages
     * font size
+    * background color
 
 **.dark-nav**
 * used to set darker fonts for use with light backgrounds
 * used on hobbies page
+    * font color
+
+**.index-nav**
+* used to style navbar with background color
+* used on index page
     * font color
 
 ### Cards
