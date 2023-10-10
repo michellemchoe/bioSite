@@ -7,16 +7,23 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+hr {
+    width:50%;
+    height: 2px;
+    margin:0 auto;
+    background-color:#5C6D70;
+}
+
 #hobbies-body{
     width: 100%;
     height: 100vh;
     background: repeating-linear-gradient(
         to right,
         #EEE5E9 0%,
-        #EEE5E9 25%,
-        #545922 25%,
-        #545922 75%,
-        #eee5e9 75%,
+        #EEE5E9 20%,
+        #545922 20%,
+        #545922 80%,
+        #eee5e9 80%,
         #EEE5E9 100%
     );
 }
@@ -50,7 +57,7 @@ h1 {
     overflow: hidden;
     background-color: #545922;
     border-bottom: solid;
-    border-width: 15px;
+    border-width: 30px;
     border-color: #545922;
 }
 
@@ -62,6 +69,7 @@ h1 {
 .dark-nav a {
     color: #5C6D70;
     text-decoration: none; 
+
 }
 
 .index-nav a:hover {
@@ -76,12 +84,75 @@ a:active {
     text-decoration: line-through;
 }
 
-.navbar {
-    font-size:large;
+#index-title {
+    color:#d7adab;
+    font-size: xxx-large;
+    text-align: center;
+    background-color: #545922;
+    border-bottom: solid;
+    border-width: 30px;
+    border-color: #545922;
 }
 
-.dark-nav {
-    color:  #5C6D70;
+#hobbies-title {
+    color:#d7adab;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
+
+#about-title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.index-card {
+    display: block;
+    background-color: #E5D1D0;
+    margin: 10px;
+    outline: 1px solid #545922;
+    height:auto;
+    width: 40%;
+    overflow:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hobbies-card {
+    display: block;
+    margin: 10px;
+    outline: 2px solid #d7adab;
+    height:auto;
+    width: 45%;
+    overflow:auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.column-left {
+    float: left;
+    padding: 12px 15px 15px 15px;
+}
+
+#about-column-left {
+    float: left;
+    margin: top 100px;
+}
+
+
+#about-column-right {
+    width: 60%;
+    float: right;
+}
+
+
+
+.hobbies-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .light-card-title {
@@ -90,27 +161,40 @@ a:active {
 
 .card-title {
     color: #5C6D70;
+    font-weight: 600;
+    font-size:larger;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20px;
 }
 
 .card-subtitle {
     color: #5C6D70;
+    font-style: italic;
+    font-size: medium;
+    padding-bottom: 10px;
 }
 
 .index-card-text {
-    color: black;
+    color: rgb(54, 54, 54);
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: medium;
 }
 
 .hobbies-card-text {
-    color: black;
+    color:#E5D1D0;
+    padding: 35px 35px 35px;
+    font-size: larger;
 }
 
-.index-content {
-    font-size: small;
-}
+
+
 .card-image {
-    max-height: 300px;
+    max-height: 275px;
 }
 
 .about-image {
-    max-height:500px;
+    max-height:450px;
+    margin-top: 75px;
+    padding: 10px 10px 10px 60px;
 }
