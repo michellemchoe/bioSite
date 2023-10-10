@@ -39,7 +39,7 @@
 
 ### Cards
 **#*page*-card**
-* holds image and content for each hobby/embellishment
+* wraps image and content for each hobby/embellishment
 * used on landing and hobbies pages
     * dimensions
     * position
@@ -53,7 +53,7 @@
     * font style
     * positioning
 
-**.dark-card-subtitle**
+**.card-subtitle**
 * title of each embellishment
 * used on landing page
     * color
@@ -61,14 +61,27 @@
     * font style
     * positioning
 
-**.index-content**
-* wraps title, subtitle, and content of each embellishment
+**.index-card-content**
+* wraps title, subtitle, and text of each embellishment
 * used for layout design
 
-**.card-content**
-* text of ef for each hobby/embellishment
-* used on landing and hobbies pages
+**#about-content**
+* wraps title and text on about page
+    * layout design
     * color
+
+**.*page*-card-text**
+* text of for each hobby/embellishment
+* used on landing and hobbies pages
+    * layout design
+    * color
+
+**#biography**
+* text for about page
+    * layout design
+    * color
+
+
 
 ### Images
 **.card-image**
